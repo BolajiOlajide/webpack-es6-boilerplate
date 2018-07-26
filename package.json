@@ -1,0 +1,23 @@
+{
+  "name": "webpack-es6-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BolajiOlajide/webpack-es6-boilerplate.git",
+  "author": "Bolaji Olajide <bolaji.olajide@andela.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "flickity": "^2.1.2",
+    "lodash": "^4.17.10",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^4.16.2"
+  },
+  "scripts": {
+    "build": "webpack --progress --watch"
+  }
+}
