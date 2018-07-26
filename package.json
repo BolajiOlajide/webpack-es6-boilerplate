@@ -9,12 +9,15 @@
     "axios": "^0.18.0",
     "flickity": "^2.1.2",
     "lodash": "^4.17.10",
-    "slug": "^0.9.1"
+    "path": "^0.12.7",
+    "slug": "^0.9.1",
+    "webpack-cli": "^3.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-es2015-native-modules": "^6.9.4",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.2"
   },
   "scripts": {

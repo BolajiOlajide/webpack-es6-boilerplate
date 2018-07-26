@@ -1,7 +1,10 @@
 import axios from "axios";
 import slug from "slug";
+import { uniq } from 'lodash';
 
 
+const age = [1,1,2,3,19,2,34,34,10,90];
+console.log(uniq(age));
 
 const name = document.getElementById("name");
 const button = document.getElementById("theme-changer");
