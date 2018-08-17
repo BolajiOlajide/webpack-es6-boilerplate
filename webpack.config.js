@@ -35,7 +35,8 @@ module.exports = {
     // env plugin
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify(nodeEnv)
+        NODE_ENV: JSON.stringify(nodeEnv),
+        NAME: JSON.stringify('Bolaji')
       }
     })
   ],

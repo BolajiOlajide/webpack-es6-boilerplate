@@ -5,6 +5,7 @@ import { uniq } from 'lodash';
 
 const age = [1,1,2,3,19,2,34,34,10,90];
 console.log(uniq(age));
+console.log(process.env.NAME);
 
 const name = document.getElementById("name");
 const button = document.getElementById("theme-changer");
